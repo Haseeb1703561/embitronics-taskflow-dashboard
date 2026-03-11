@@ -62,7 +62,10 @@ export function AuthForm({
       toast.success(
         isRegister ? "Account created successfully." : "Welcome back.",
       );
-      router.push(result.url || callbackUrl);
+
+      // Use the local callback path directly so login navigation still works
+      // even if an environment-specific absolute URL is returned by the auth layer.
+      router.replace(callbackUrl);
       router.refresh();
     } catch (submitError) {
       const message =
