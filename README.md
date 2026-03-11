@@ -4,9 +4,7 @@ A full-stack task management application built for the EmbiTronics technical ass
 
 ## Live URL
 
-Add your deployed Vercel URL here before submission:
-
-`https://your-project-name.vercel.app`
+`https://embitronics-taskflow-dashboard.vercel.app`
 
 ## Tech Stack
 
