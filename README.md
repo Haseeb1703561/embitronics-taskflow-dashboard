@@ -126,28 +126,3 @@ or
 }
 ```
 
-## What I Would Improve With More Time
-
-- Add drag-and-drop task movement between status columns
-- Add integration and end-to-end tests
-- Add pagination and search for larger datasets
-- Add finer-grained project analytics and activity history
-- Add user profile details and password reset flow
-
-## Deployment to Vercel
-
-1. Push this project to a GitHub repository.
-2. Import the repository into Vercel.
-3. Add the same environment variables from `.env.local` into the Vercel project settings.
-4. Set `NEXTAUTH_URL` to your production Vercel URL, for example:
-   `https://your-project-name.vercel.app`
-5. Deploy the project.
-6. Copy the production URL into the `Live URL` section above before submission.
-
-## Submission Checklist
-
-- Push the code to a public GitHub repository
-- Deploy the app to Vercel
-- Replace the `Live URL` placeholder in this README
-- Keep `README.md` and `AI_LOG.md` in the project root
-- Share the GitHub repository link with EmbiTronics
