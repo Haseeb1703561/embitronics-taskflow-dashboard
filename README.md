@@ -126,3 +126,11 @@ or
 }
 ```
 
+## What I Would Improve With More Time
+
+- Add drag-and-drop task movement between status columns
+- Add integration and end-to-end tests
+- Add pagination and search for larger datasets
+- Add finer-grained project analytics and activity history
+- Add user profile details and password reset flow
+
